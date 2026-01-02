@@ -17,8 +17,7 @@ class EventCreator(commands.Cog):
         end_time: str
     ):
         """
-        Usage:
-        ?event "Name" "Description" 2026-01-03T18:00 2026-01-03T20:00
+        Usage: ?event "Name" "Description" 2026-01-03T18:00 2026-01-03T20:00
         """
 
         guild = ctx.guild
