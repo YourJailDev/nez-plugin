@@ -12,7 +12,7 @@ class CustomEmbed(commands.Cog):
         Usage: .send MyTitle This is the description
         """
 
-        embed = discord.Embed(title=title, description=description, color=0x00FFAA)
+        embed = discord.Embed(title=title, description=description, color=0xB4175E)
         await ctx.send(embed=embed)
 
 async def setup(bot):
