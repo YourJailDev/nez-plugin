@@ -32,7 +32,7 @@ class CustomEmbed(commands.Cog):
                 embed = discord.Embed(
                     title=title if i == 0 else None,  # title only on first embed
                     description=description if i == 0 else None,
-                    color=0xB4175E
+                    color=0xFF9000
                 )
                 embed.set_image(url=attachment.url)
                 await ctx.send(embed=embed)
