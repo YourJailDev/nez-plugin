@@ -21,7 +21,7 @@ class CustomEmbed(commands.Cog):
             embed = discord.Embed(
                 title=title,
                 description=description,
-                color=0xB4175E
+                color=0xFF9000
             )
             await ctx.send(embed=embed)
             return
